@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="secret/Is.css">
+</head>
+
+<body>
+  <img src="secret/z2.png" id="heart">
+  <p id="start_p">do you love me?</p>
+  <input type="radio" name="love" id="yes" onclick="click_yes()">
+  <label for="yes" id="yes_lb">yes</label>
+  <input type="radio" name="love" id="no" onclick="click_no()">
+  <label for="no" id="no_lb">no</label>
+
+  <label for="much" id="much_lb" class="first">how much?</label>
+  <input type="range" id="much" name="much" min="0" max="100" class="first" onchange="fmuch()">
+
+  <label for="aani" id="anni_lb" class="second">skill testing question: when is our anniversary?</label>
+  <input type="date" name="anni" id="anni" class="second" onchange="fanni()">
+
+  <input type="submit" id="submit" onclick="end()">
+  <div id="end">
+    <p id="end_p">YOU WIN!</p>
+    <p id="sound">(turn sound on)</p>
+    <p id="end_pp">keep your sunday, february 9th available :)</p>
+  </div>
+  <script src="secret/Emily.js"></script>
+</body>
+</html>
